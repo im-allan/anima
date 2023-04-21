@@ -1,0 +1,109 @@
+h2 {
+  color: white;
+  font-family: "Roboto";
+  font-size: 18px;
+}
+
+.swiper__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  height: fit-content;
+}
+
+.swiper {
+  grid-column: 1/4;
+  grid-row: 1;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.swiper__slide {
+  background: #fff;
+  font-size: 18px;
+  height: 15.9rem;
+  text-align: center;
+  width: 9.4rem;
+}
+
+.swiper__slide img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  transition: all 1s;
+  width: 100%;
+}
+
+.swiper__button {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  opacity: 0;
+  position: relative;
+  transition: all 1s;
+  visibility: hidden;
+  width: 3.5rem;
+  z-index: 2;
+}
+
+.swiper__button svg {
+  color: white;
+  height: 2.5rem;
+  transition: all 0.5s;
+  width: 2.5rem;
+}
+
+.button__next {
+  grid-column: 3;
+  grid-row: 1;
+  margin-left: auto;
+  vertical-align: middle;
+}
+
+.button__prev {
+  grid-column: 1;
+  grid-row: 1;
+  vertical-align: middle;
+}
+.button__disabled {
+  display: none !important;
+  transition: all 0.5s;
+}
+
+.swiper__slide img:hover {
+  transform: scale(1.05);
+  transition: all 1s;
+}
+
+.swiper__button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.5s;
+}
+
+.swiper__button:hover svg {
+  transform: scale(1.4);
+  transition: all 0.5s;
+}
+
+.swiper__container:hover > .swiper__button {
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all 0.8s;
+  visibility: visible;
+}
+
+.swiper-container:hover > .swiper__button svg {
+  transition: all 1s;
+}
+
+@media only screen and (max-width: 700px) {
+  .swiper__slide {
+    height: 170px;
+  }
+  .swiper__button {
+    display: none;
+  }
+}

@@ -266,7 +266,8 @@
 }
 
 .ellipsis__img {
-  width: 30px;
+  width: 25px;
+  height: 30px;
 }
 
 .description__button:hover .description__button__img {

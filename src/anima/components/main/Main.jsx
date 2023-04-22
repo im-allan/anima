@@ -94,7 +94,7 @@ export const Main = () => {
               <div className="content__anima__logo__container">
                 <img
                   className="content__anima__logo"
-                  src="\static\anima-logo.svg"
+                  src="\static\anima-logo.png"
                   alt="anima-logo"
                 />
                 <p className="content__anima__type">{mainData[index]?.type}</p>
@@ -109,7 +109,7 @@ export const Main = () => {
                   className="content__anima__button content__button__more"
                 >
                   <img
-                    src="\static\right-2-svgrepo-com.svg"
+                    src="\static\right-2-svgrepo-com.png"
                     className="content__icon__more"
                     alt="icon read more"
                   />
@@ -123,13 +123,13 @@ export const Main = () => {
                 >
                   {onList ? (
                     <img
-                      src="\static\check-svgrepo-com.svg"
+                      src="\static\check-svgrepo-com.png"
                       className="content__icon__plus"
                       alt="check icon"
                     />
                   ) : (
                     <img
-                      src="\static\plus-content-svgrepo-com.svg"
+                      src="\static\plus-content-svgrepo-com.png"
                       className="content__icon__plus"
                       alt="icon plus"
                     />

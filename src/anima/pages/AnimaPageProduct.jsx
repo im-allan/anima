@@ -66,7 +66,7 @@ export const AnimaPageProduct = () => {
                       className="anima__description__link"
                     >
                       <img
-                        src="\static\question-mark-svgrepo-com.svg"
+                        src="\static\question-mark-svgrepo-com.png"
                         alt="Question image"
                         className="link__question__image"
                       />
@@ -91,7 +91,7 @@ export const AnimaPageProduct = () => {
                       className="anima__description__link"
                     >
                       <img
-                        src="\static\question-mark-svgrepo-com.svg"
+                        src="\static\question-mark-svgrepo-com.png"
                         alt="Question image"
                         className="link__question__image"
                       />
@@ -231,7 +231,7 @@ export const AnimaPageProduct = () => {
                 >
                   <img
                     className="btn-back-ico"
-                    src="\static\left-2-svgrepo-com.svg"
+                    src="\static\left-2-svgrepo-com.png"
                     alt=""
                   />
                   Back

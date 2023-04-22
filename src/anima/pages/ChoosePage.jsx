@@ -4,7 +4,7 @@ import { AnimaContext } from "../";
 
 export const ChoosePage = ({ setIsChoose }) => {
   const [title, setTitle] = useState("Who is watching now?");
-  const [icon, setIcon] = useState("/static/pencil-ui-svgrepo-com.svg");
+  const [icon, setIcon] = useState("/static/pencil-ui-svgrepo-com.png");
   const [buttonText, setButtonText] = useState("Manage");
   const [numProfiles, setNumProfiles] = useState(0);
   const [manage, setManage] = useState(false);
@@ -20,9 +20,9 @@ export const ChoosePage = ({ setIsChoose }) => {
     () => () => {
       setButtonText((prevText) => (prevText === "Manage" ? "Ready" : "Manage"));
       setIcon((prevIcon) =>
-        prevIcon === "/static/pencil-ui-svgrepo-com.svg"
-          ? "/static/close-md-svgrepo-com.svg"
-          : "/static/pencil-ui-svgrepo-com.svg"
+        prevIcon === "/static/pencil-ui-svgrepo-com.png"
+          ? "/static/close-md-svgrepo-com.png"
+          : "/static/pencil-ui-svgrepo-com.png"
       );
     },
     [setIcon, setButtonText]
@@ -103,7 +103,7 @@ export const ChoosePage = ({ setIsChoose }) => {
                 >
                   <img
                     className="edit__pencil__ico"
-                    src="\static\pencil-button-svgrepo-com.svg"
+                    src="\static\pencil-button-svgrepo-com.png"
                     alt=""
                   />
                 </Link>
@@ -125,7 +125,7 @@ export const ChoosePage = ({ setIsChoose }) => {
             <button className="user__button">
               <img
                 className="button__img"
-                src="\static\plus-profile-svgrepo-com.svg"
+                src="\static\plus-profile-svgrepo-com.png"
                 alt=""
               />
             </button>

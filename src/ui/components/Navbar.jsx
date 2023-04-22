@@ -106,7 +106,7 @@ export const NavbarAnime = () => {
           <Navbar.Brand className="brand-navbar">
             <img
               className="navbar-brand-img"
-              src="\img\anima-logo.ico"
+              src="\static\anima-logo-complete.png"
               alt=""
             />
           </Navbar.Brand>
@@ -151,7 +151,7 @@ export const NavbarAnime = () => {
                   }}
                 >
                   <img
-                    src="\static\left-right-arrow-svgrepo-com.svg"
+                    src="\static\left-right-arrow-svgrepo-com.png"
                     alt=""
                     className="offcanvas__change"
                   />
@@ -195,7 +195,7 @@ export const NavbarAnime = () => {
               >
                 <img
                   className="navbar-list-icon pb-1"
-                  src="\static\list-check-svgrepo-com.svg"
+                  src="\static\list-check-svgrepo-com.png"
                   alt="List icon"
                 />
                 My list
@@ -221,7 +221,7 @@ export const NavbarAnime = () => {
               >
                 <img
                   className="navbar-like-icon pb-1"
-                  src="\static\like-svgrepo-com.svg"
+                  src="\static\like-svgrepo-com.png"
                   alt="List icon"
                 />
                 Vote

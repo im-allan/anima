@@ -78,7 +78,7 @@ export const Modal = ({ data, category }) => {
                 setStatus(false);
               }}
             >
-              <img src="\static\close-svgrepo-com.svg" alt="Close button" />
+              <img src="\static\close-svgrepo-com.png" alt="Close button" />
             </button>
             <div className="header__content">
               <div className="header__title">
@@ -164,14 +164,14 @@ export const Modal = ({ data, category }) => {
                 {listedItem.includes(data.mal_id) ? (
                   <img
                     className="description__button__img"
-                    src="\static\check-svgrepo-com.svg"
+                    src="\static\check-svgrepo-com.png"
                     alt="Plus image"
                     onClick={handleMyList}
                   />
                 ) : (
                   <img
                     className="description__button__img"
-                    src="\static\plus-svgrepo-com.svg"
+                    src="\static\plus-svgrepo-com.png"
                     alt="Plus image"
                     onClick={handleMyList}
                   />
@@ -185,14 +185,14 @@ export const Modal = ({ data, category }) => {
                 {itemLiked.includes(data.mal_id) ? (
                   <img
                     className="description__button__img"
-                    src="\static\like-complete-svgrepo-com.svg"
+                    src="\static\like-complete-svgrepo-com.png"
                     alt="Like image"
                     onClick={handleMyListLike}
                   />
                 ) : (
                   <img
                     className="description__button__img"
-                    src="\static\like-svgrepo-com.svg"
+                    src="\static\like-svgrepo-com.png"
                     alt="Like image"
                     onClick={handleMyListLike}
                   />
@@ -208,7 +208,7 @@ export const Modal = ({ data, category }) => {
                 >
                   <img
                     className="description__button__img ellipsis__img"
-                    src="\static\more-h-svgrepo-com.svg"
+                    src="\static\right-svgrepo-com.png"
                     alt="Ellipsis image"
                   />
                   More

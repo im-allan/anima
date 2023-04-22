@@ -1,0 +1,150 @@
+{
+  "manga": {
+    "a": {
+      "category": "manga",
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "manga",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/manga/genre/27/Shounen"
+        }
+      ],
+      "images": {
+        "jpg": {
+          "image_url": "https://i.ibb.co/3z2wM57/seraph-of-the-endv1.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/manga/1/137573l.jpg"
+        }
+      },
+      "mal_id": 43661,
+      "name_image": "https://i.ibb.co/551B97P/owari-no-serpah-title.png",
+      "name": "seraph of the end",
+      "rating": "17+",
+      "synopsis": "A virus has devastated most of the world's population, leaving only children under the age of thirteen alive. During this event, vampires and other creatures emerge from the depths of the Earth...",
+      "title": "Owari No Seraph",
+      "type": "M A N G A"
+    },
+    "b": {
+      "category": "manga",
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "manga",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/manga/genre/27/Shounen"
+        }
+      ],
+      "images": {
+        "jpg": {
+          "image_url": "https://i.ibb.co/cvLZwQ2/hajime-no-ippo.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/manga/2/250313l.jpg"
+        }
+      },
+      "mal_id": 7,
+      "name_image": "https://i.ibb.co/T1P8Z2H/hajime-no-ippo-title.png",
+      "name": "Hajime no ippo",
+      "rating": "17+",
+      "synopsis": "Ippo Makunouchi is a very reserved and shy 16-year-old boy who works with his mother in a family fishing boat business called 'Makunouchi Boat Rental' Because of this, he never has free time to do sports or do sports...",
+      "title": "Hajime No Ippo",
+      "type": "M A N G A"
+    },
+    "c": {
+      "category": "manga",
+      "demographics": [
+        {
+          "mal_id": 41,
+          "type": "manga",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/manga/genre/41/Seinen"
+        }
+      ],
+      "images": {
+        "jpg": {
+          "image_url": "https://i.ibb.co/1YNPfQX/choujin-x.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/manga/3/253495l.jpg"
+        }
+      },
+      "mal_id": 131403,
+      "name_image": "https://i.ibb.co/q1XR3cN/choujin-x-title.png",
+      "name": "Choujin X",
+      "rating": "17+",
+      "synopsis": "Azuma and Tokio are childhood friends, as different as night from day. But when Tokio becomes a choujin, and as if that were not enough, a deformed one, Azuma leaves him aside to face without support not only a grotesque transformation, but also the infighting among the rest of the superhumans...",
+      "title": "Choujin X",
+      "type": "M A N G A"
+    }
+  },
+  "anime": {
+    "a": {
+      "category": "anime",
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ],
+      "images": {
+        "jpg": {
+          "image_url": "https://i.ibb.co/Tv0tvQy/Fs-NPUHUWYAAA0om.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/6/73245l.jpg"
+        }
+      },
+      "mal_id": 21,
+      "name_image": "https://i.ibb.co/hHPvbtP/One-Piece-Logo.png",
+      "name": "One Piece",
+      "rating": "PG-13",
+      "synopsis": "Monkey D. Luffy, who, inspired by his pirate friend Shanks, begins a journey to achieve his dream, to be the Pirate King, for which he must find the One Piece treasure left behind by the previous pirate king Gol D. Roger...",
+      "title": "One Piece",
+      "type": "A N I M E"
+    },
+    "b": {
+      "category": "anime",
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ],
+      "images": {
+        "jpg": {
+          "image_url": "https://i.ibb.co/tHnHqGn/bleach-tybw.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1764/126627l.jpg"
+        }
+      },
+      "mal_id": 269,
+      "name_image": "https://i.ibb.co/Y3zRKBC/Bleach-logo.png",
+      "name": "Bleach",
+      "rating": "17+",
+      "synopsis": "Ichigo Kurosaki is a young man who can see spirits. When a shinigami named Rukia Kuchiki is injured while trying to protect him from a monster known as the Hollow, she inadvertently transfers her powers to Ichigo...",
+      "title": "Bleach",
+      "type": "A N I M E"
+    },
+    "c": {
+      "category": "anime",
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ],
+      "images": {
+        "jpg": {
+          "image_url": "https://i.ibb.co/djJcqRX/snk-final-season.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1902/134119l.jpg"
+        }
+      },
+      "mal_id": 16498,
+      "name_image": "https://i.ibb.co/ZHGNHtt/snk-logo.png",
+      "name": "Shingeki No Kyojin",
+      "rating": "17+",
+      "synopsis": "Eren Jaeger who, after losing his mother to the Titans, decides to join the 'Army of the Walls' with his adoptive sister and his best friend in order to avenge the death of his mother and destroy the Titans...",
+      "title": "Shingeki No Kyojin",
+      "type": "A N I M E"
+    }
+  }
+}

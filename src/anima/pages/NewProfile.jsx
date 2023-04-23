@@ -184,14 +184,14 @@ export const NewProfile = (props) => {
       <img
         onClick={handleNavigateBack}
         className="back-ico"
-        src="\anima\static\arrow-back-sharp-svgrepo-com.svg"
+        src="\anima\static\arrow-back-sharp-svgrepo-com.png"
         alt=""
       />
       <h2 className="add__prof">Add profile</h2>
       <div className="container__buttons-new">
         <img
           className="check-ico"
-          src="\anima\static\check-2-svgrepo-com.svg"
+          src="\anima\static\check-2-svgrepo-com.png"
           alt=""
           onClick={handleButtonClick}
         />
@@ -207,7 +207,7 @@ export const NewProfile = (props) => {
           <>
             <img
               className="delete-ico"
-              src="\anima\static\delete-garbage-office-svgrepo-com.svg"
+              src="\anima\static\delete-garbage-office-svgrepo-com.png"
               alt=""
               onClick={() => {
                 setShowModal(true);
@@ -236,7 +236,7 @@ export const NewProfile = (props) => {
         >
           <img
             className="image__edit"
-            src="\anima\static\pencil-button-svgrepo-com.svg"
+            src="\anima\static\pencil-button-svgrepo-com.png"
             alt=""
           />
           <img className="image__button" src={imageUrl} alt="" />

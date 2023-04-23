@@ -88,7 +88,11 @@ export const ChoosePage = ({ setIsChoose }) => {
       ) : (
         <></>
       )}
-      <img className="choose__ico" src="\img\anima-logo.png" alt="anima-ico" />
+      <img
+        className="choose__ico"
+        src="anima\static\anima-logo.png"
+        alt="anima-ico"
+      />
       <div className="container__choose">
         <p className="text-white choose__question">{title}</p>
         <div className="container__users">
